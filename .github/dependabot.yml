@@ -5,22 +5,27 @@ updates:
     directory: /gameoflife-build
     schedule:
       interval: daily
+    target-branch: master
   - package-ecosystem: maven
     directory: /gameoflife-acceptance-tests
     schedule:
       interval: daily
+    target-branch: master
   - package-ecosystem: maven
     directory: /gameoflife-core
     schedule:
       interval: daily
+    target-branch: master
   - package-ecosystem: maven
     directory: /gameoflife-deploy
     schedule:
       interval: daily
+    target-branch: master
   - package-ecosystem: maven
     directory: /gameoflife-web
     schedule:
       interval: daily
+    target-branch: master
 
 
   
