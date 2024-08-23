@@ -1,0 +1,27 @@
+## Dependabot configuration for all repositories in this organization.
+version: 2
+updates:
+  - package-ecosystem: maven
+    directory: /gameoflife-build
+    schedule:
+      interval: daily
+  - package-ecosystem: maven
+    directory: /gameoflife-acceptance-tests
+    schedule:
+      interval: daily
+  - package-ecosystem: maven
+    directory: /gameoflife-core
+    schedule:
+      interval: daily
+  - package-ecosystem: maven
+    directory: /gameoflife-deploy
+    schedule:
+      interval: daily
+  - package-ecosystem: maven
+    directory: /gameoflife-web
+    schedule:
+      interval: daily
+
+
+  
+    
